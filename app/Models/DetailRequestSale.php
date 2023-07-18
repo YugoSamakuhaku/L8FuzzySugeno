@@ -13,10 +13,11 @@ final class DetailRequestSale extends Model
 
     public $timestamps = false;
 
-    protected $table = 'detail_purchases';
+    protected $table = 'detail_request_sales';
     protected $primaryKey = 'id';
 
     protected $fillable = [
+        'id_sale',
         'id_purchase',
         'id_inggridient',
         'qty',

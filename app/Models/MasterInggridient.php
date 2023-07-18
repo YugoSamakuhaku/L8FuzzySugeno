@@ -13,15 +13,13 @@ final class MasterInggridient extends Model
 
     public $timestamps = true;
 
-    protected $table = 'inggridients_history';
+    protected $table = 'master_inggridients';
     protected $primaryKey = 'id_inggridient';
 
     protected $fillable = [
         'name_inggridient',
         'qty_inggridient',
         'unit_inggridient',
-        'stok_out',
-        'last_stok',
     ];
 
     public function inggridient_history()

@@ -21,6 +21,7 @@ final class User extends Authenticatable
     protected $primaryKey = 'id_user';
 
     protected $fillable = [
+        'id_role',
         'fullname',
         'username',
         'password',
@@ -31,12 +32,8 @@ final class User extends Authenticatable
         'remember_token',
     ];
 
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
-
     public function roles()
     {
-        return $this->belongsToMany(Role::class, 'has_roles');
+        return $this->belongsTo(Role::class);
     }
 }
