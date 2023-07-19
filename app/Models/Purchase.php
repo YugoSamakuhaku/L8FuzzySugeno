@@ -19,7 +19,6 @@ final class Purchase extends Model
     protected $fillable = [
         'id_supplier',
         'date_purchase',
-        'date_expired',
     ];
 
     public function master_inggridients()

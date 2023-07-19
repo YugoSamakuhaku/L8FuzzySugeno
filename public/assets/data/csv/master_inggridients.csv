@@ -1,0 +1,4 @@
+id_inggridient,name_inggridient,qty_inggridient,unit_inggridient,duration_expired,time_expired,created_at,updated_at
+1,Biji Kopi,0,gr,7,Month,2023-07-19 15:01:30,2023-07-19 15:01:30
+2,Susu,0,ml,6,Month,2023-07-19 15:01:30,2023-07-19 15:01:30
+3,Gula,0,gr,2,Year,2023-07-19 15:01:30,2023-07-19 15:01:30

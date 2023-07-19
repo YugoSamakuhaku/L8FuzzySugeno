@@ -28,5 +28,8 @@ final class DatabaseSeeder extends Seeder
         $this->call(DetailRequestSaleSeeder::class);
 
         $this->call(SupplierSeeder::class);
+
+        $this->call(PurchaseSeeder::class);
+        $this->call(DetailPurchaseSeeder::class);
     }
 }

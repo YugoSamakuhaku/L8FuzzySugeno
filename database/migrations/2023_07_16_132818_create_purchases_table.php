@@ -19,7 +19,6 @@ final class CreatePurchasesTable extends Migration
             $table->id('id_purchase');
             $table->unsignedBigInteger('id_supplier');
             $table->date('date_purchase');
-            $table->date('date_expired');
             $table->timestamps();
 
             $table->foreign('id_supplier')->references('id_supplier')->on('suppliers')->onDelete('cascade');

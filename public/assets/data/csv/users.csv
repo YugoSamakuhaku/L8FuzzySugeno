@@ -1,0 +1,11 @@
+id_user,id_role,fullname,username,password,remember_token,created_at,updated_at
+1,1,Autumn Ruecker,ezequiel.rohan,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,XmxhxlGToJ,2023-07-19 15:01:30,2023-07-19 15:01:30
+2,1,Kathryne Skiles,delia.carroll,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,n1RzIUhYFf,2023-07-19 15:01:30,2023-07-19 15:01:30
+3,2,Rodrick Schimmel,ronaldo.halvorson,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,q3rjewOJnZ,2023-07-19 15:01:30,2023-07-19 15:01:30
+4,2,Darrick Bahringer III,rickie.crooks,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,zenp67ew7Y,2023-07-19 15:01:30,2023-07-19 15:01:30
+5,1,Jonas Stroman,hayes.elise,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,9qjzCMAcFw,2023-07-19 15:01:30,2023-07-19 15:01:30
+6,2,Mia Bailey,freddie.rodriguez,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,wI2TcHjRGD,2023-07-19 15:01:30,2023-07-19 15:01:30
+7,2,Osbaldo Toy,vonrueden.lucinda,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,sO7tRmWF1d,2023-07-19 15:01:30,2023-07-19 15:01:30
+8,1,Mr. Morgan Reynolds PhD,alena.mayer,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,uYqzMwNskP,2023-07-19 15:01:30,2023-07-19 15:01:30
+9,2,Prof. Gaylord Heller,olson.joe,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,AnHEhU93fq,2023-07-19 15:01:30,2023-07-19 15:01:30
+10,2,Lamont Breitenberg,altenwerth.norene,$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi,X8tHg80rAB,2023-07-19 15:01:30,2023-07-19 15:01:30

@@ -1,0 +1,218 @@
+[
+    {
+        "id_purchase": 1,
+        "id_inggridients": 1,
+        "date_expired": "28/02/2022",
+        "qty": 35000
+    },
+    {
+        "id_purchase": 1,
+        "id_inggridients": 2,
+        "date_expired": "30/01/2022",
+        "qty": 24000
+    },
+    {
+        "id_purchase": 1,
+        "id_inggridients": 3,
+        "date_expired": "30/07/2023",
+        "qty": 10000
+    },
+    {
+        "id_purchase": 2,
+        "id_inggridients": 1,
+        "date_expired": "31/03/2022",
+        "qty": 27000
+    },
+    {
+        "id_purchase": 2,
+        "id_inggridients": 2,
+        "date_expired": "28/02/2022",
+        "qty": 20000
+    },
+    {
+        "id_purchase": 2,
+        "id_inggridients": 3,
+        "date_expired": "31/08/2023",
+        "qty": 8000
+    },
+    {
+        "id_purchase": 3,
+        "id_inggridients": 1,
+        "date_expired": "30/04/2022",
+        "qty": 26000
+    },
+    {
+        "id_purchase": 3,
+        "id_inggridients": 2,
+        "date_expired": "30/03/2022",
+        "qty": 18000
+    },
+    {
+        "id_purchase": 3,
+        "id_inggridients": 3,
+        "date_expired": "30/09/2023",
+        "qty": 7000
+    },
+    {
+        "id_purchase": 4,
+        "id_inggridients": 1,
+        "date_expired": "30/05/2022",
+        "qty": 32000
+    },
+    {
+        "id_purchase": 4,
+        "id_inggridients": 2,
+        "date_expired": "30/04/2022",
+        "qty": 23000
+    },
+    {
+        "id_purchase": 4,
+        "id_inggridients": 3,
+        "date_expired": "30/10/2023",
+        "qty": 9000
+    },
+    {
+        "id_purchase": 5,
+        "id_inggridients": 1,
+        "date_expired": "30/06/2022",
+        "qty": 32000
+    },
+    {
+        "id_purchase": 5,
+        "id_inggridients": 2,
+        "date_expired": "30/05/2022",
+        "qty": 23000
+    },
+    {
+        "id_purchase": 5,
+        "id_inggridients": 3,
+        "date_expired": "30/11/2023",
+        "qty": 9000
+    },
+    {
+        "id_purchase": 6,
+        "id_inggridients": 1,
+        "date_expired": "31/07/2022",
+        "qty": 30000
+    },
+    {
+        "id_purchase": 6,
+        "id_inggridients": 2,
+        "date_expired": "30/06/2022",
+        "qty": 20000
+    },
+    {
+        "id_purchase": 6,
+        "id_inggridients": 3,
+        "date_expired": "31/12/2023",
+        "qty": 8000
+    },
+    {
+        "id_purchase": 7,
+        "id_inggridients": 1,
+        "date_expired": "30/08/2022",
+        "qty": 27000
+    },
+    {
+        "id_purchase": 7,
+        "id_inggridients": 2,
+        "date_expired": "30/07/2022",
+        "qty": 19000
+    },
+    {
+        "id_purchase": 7,
+        "id_inggridients": 3,
+        "date_expired": "30/01/2024",
+        "qty": 8000
+    },
+    {
+        "id_purchase": 8,
+        "id_inggridients": 1,
+        "date_expired": "28/09/2022",
+        "qty": 25000
+    },
+    {
+        "id_purchase": 8,
+        "id_inggridients": 2,
+        "date_expired": "28/08/2022",
+        "qty": 18000
+    },
+    {
+        "id_purchase": 8,
+        "id_inggridients": 3,
+        "date_expired": "28/02/2024",
+        "qty": 7000
+    },
+    {
+        "id_purchase": 9,
+        "id_inggridients": 1,
+        "date_expired": "31/10/2022",
+        "qty": 34000
+    },
+    {
+        "id_purchase": 9,
+        "id_inggridients": 2,
+        "date_expired": "30/09/2022",
+        "qty": 23000
+    },
+    {
+        "id_purchase": 9,
+        "id_inggridients": 3,
+        "date_expired": "31/03/2024",
+        "qty": 9000
+    },
+    {
+        "id_purchase": 10,
+        "id_inggridients": 1,
+        "date_expired": "30/11/2022",
+        "qty": 28000
+    },
+    {
+        "id_purchase": 10,
+        "id_inggridients": 2,
+        "date_expired": "30/10/2022",
+        "qty": 20000
+    },
+    {
+        "id_purchase": 10,
+        "id_inggridients": 3,
+        "date_expired": "30/04/2024",
+        "qty": 8000
+    },
+    {
+        "id_purchase": 11,
+        "id_inggridients": 1,
+        "date_expired": "31/12/2022",
+        "qty": 31000
+    },
+    {
+        "id_purchase": 11,
+        "id_inggridients": 2,
+        "date_expired": "30/11/2022",
+        "qty": 22000
+    },
+    {
+        "id_purchase": 11,
+        "id_inggridients": 3,
+        "date_expired": "31/05/2024",
+        "qty": 9000
+    },
+    {
+        "id_purchase": 12,
+        "id_inggridients": 1,
+        "date_expired": "30/01/2023",
+        "qty": 30000
+    },
+    {
+        "id_purchase": 12,
+        "id_inggridients": 2,
+        "date_expired": "30/12/2022",
+        "qty": 21000
+    },
+    {
+        "id_purchase": 12,
+        "id_inggridients": 3,
+        "date_expired": "30/06/2024",
+        "qty": 8000
+    }
+]

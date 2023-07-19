@@ -20,6 +20,8 @@ final class MasterInggridient extends Model
         'name_inggridient',
         'qty_inggridient',
         'unit_inggridient',
+        'duration_expired',
+        'time_expired',
     ];
 
     public function inggridient_history()

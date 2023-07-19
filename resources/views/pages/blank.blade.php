@@ -1,6 +1,11 @@
-@extends('layouts.default')
+@extends('layouts.app')
 
 @section('title', 'Blank Page')
+
+@push('styles')
+@endpush
+@push('scripts')
+@endpush
 
 @section('card-title', 'Card Blank Page')
 

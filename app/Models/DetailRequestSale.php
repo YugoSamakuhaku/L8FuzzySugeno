@@ -18,8 +18,7 @@ final class DetailRequestSale extends Model
 
     protected $fillable = [
         'id_sale',
-        'id_purchase',
-        'id_inggridient',
+        'id_product',
         'qty',
     ];
 }

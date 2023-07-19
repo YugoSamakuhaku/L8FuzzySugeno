@@ -20,6 +20,8 @@ final class CreateMasterInggridientsTable extends Migration
             $table->String('name_inggridient');
             $table->integer('qty_inggridient');
             $table->String('unit_inggridient');
+            $table->integer('duration_expired');
+            $table->enum('time_expired', ['Day', 'Month', 'Year']);
             $table->timestamps();
         });
     }

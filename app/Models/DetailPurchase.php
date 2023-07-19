@@ -19,6 +19,7 @@ final class DetailPurchase extends Model
     protected $fillable = [
         'id_purchase',
         'id_inggridient',
+        'date_expired',
         'qty',
     ];
 }

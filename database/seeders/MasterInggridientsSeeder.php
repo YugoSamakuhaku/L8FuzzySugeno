@@ -21,16 +21,22 @@ final class MasterInggridientsSeeder extends Seeder
                 'name_inggridient' => 'Biji Kopi',
                 'qty_inggridient' => 0,
                 'unit_inggridient' => 'gr',
+                'duration_expired' => '7',
+                'time_expired' => 'Month',
             ],
             [
                 'name_inggridient' => 'Susu',
                 'qty_inggridient' => 0,
                 'unit_inggridient' => 'ml',
+                'duration_expired' => '6',
+                'time_expired' => 'Month',
             ],
             [
                 'name_inggridient' => 'Gula',
                 'qty_inggridient' => 0,
                 'unit_inggridient' => 'gr',
+                'duration_expired' => '2',
+                'time_expired' => 'Year',
             ],
         ];
 
