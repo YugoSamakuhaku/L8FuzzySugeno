@@ -18,8 +18,8 @@ final class MasterProduct extends Model
 
     protected $fillable = [
         'name_product',
+        'unit_product',
         'price_product',
-        'stock_product',
     ];
 
     public function master_inggridients()

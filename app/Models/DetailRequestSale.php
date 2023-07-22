@@ -20,5 +20,6 @@ final class DetailRequestSale extends Model
         'id_sale',
         'id_product',
         'qty',
+        'price_product',
     ];
 }

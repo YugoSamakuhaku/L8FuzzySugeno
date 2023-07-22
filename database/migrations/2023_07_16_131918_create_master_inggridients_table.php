@@ -18,10 +18,11 @@ final class CreateMasterInggridientsTable extends Migration
         Schema::create('master_inggridients', function (Blueprint $table): void {
             $table->id('id_inggridient');
             $table->String('name_inggridient');
-            $table->integer('qty_inggridient');
+            $table->bigInteger('qty_inggridient')->default(0);
             $table->String('unit_inggridient');
+            $table->bigInteger('price_inggridient');
             $table->integer('duration_expired');
-            $table->enum('time_expired', ['Day', 'Month', 'Year']);
+            $table->String('time_expired')->default('month');
             $table->timestamps();
         });
     }

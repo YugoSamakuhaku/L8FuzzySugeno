@@ -18,8 +18,8 @@ final class CreateMasterProductsTable extends Migration
         Schema::create('master_products', function (Blueprint $table): void {
             $table->id('id_product');
             $table->String('name_product');
+            $table->String('unit_product')->default('cup');
             $table->bigInteger('price_product');
-            $table->integer('stock_product');
             $table->timestamps();
         });
     }

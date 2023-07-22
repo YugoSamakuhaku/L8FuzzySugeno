@@ -20,7 +20,8 @@ final class CreateDetailPurchasesTable extends Migration
             $table->unsignedBigInteger('id_purchase');
             $table->unsignedBigInteger('id_inggridient');
             $table->date('date_expired');
-            $table->integer('qty');
+            $table->bigInteger('qty');
+            $table->bigInteger('price_inggridient');
 
             $table->foreign('id_purchase')->references('id_purchase')->on('purchases')->onDelete('cascade');
             $table->foreign('id_inggridient')->references('id_inggridient')->on('master_inggridients')->onDelete('cascade');

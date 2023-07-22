@@ -20,6 +20,7 @@ final class MasterInggridient extends Model
         'name_inggridient',
         'qty_inggridient',
         'unit_inggridient',
+        'price_inggridient',
         'duration_expired',
         'time_expired',
     ];

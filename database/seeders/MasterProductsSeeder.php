@@ -19,19 +19,19 @@ final class MasterProductsSeeder extends Seeder
         $master_products = [
             [
                 'name_product' => 'Kopi Susu',
+                'unit_product' => 'cup',
                 'price_product' => 22000,
-                'stock_product' => 0,
             ],
 
             [
                 'name_product' => 'Kopi Americano',
+                'unit_product' => 'cup',
                 'price_product' => 18000,
-                'stock_product' => 0,
             ],
             [
                 'name_product' => 'Kopi Kapucino',
+                'unit_product' => 'cup',
                 'price_product' => 25000,
-                'stock_product' => 0,
             ],
         ];
 

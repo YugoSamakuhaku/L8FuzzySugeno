@@ -21,7 +21,6 @@ final class User extends Authenticatable
     protected $primaryKey = 'id_user';
 
     protected $fillable = [
-        'id_role',
         'fullname',
         'username',
         'password',
@@ -31,9 +30,4 @@ final class User extends Authenticatable
         'password',
         'remember_token',
     ];
-
-    public function roles()
-    {
-        return $this->belongsTo(Role::class);
-    }
 }

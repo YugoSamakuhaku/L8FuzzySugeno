@@ -11,13 +11,15 @@ final class Purchase extends Model
 {
     use HasFactory;
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     protected $table = 'purchases';
     protected $primaryKey = 'id_purchase';
 
     protected $fillable = [
         'id_supplier',
+        'qty_purchase_inggridient',
+        'total_price',
         'date_purchase',
     ];
 

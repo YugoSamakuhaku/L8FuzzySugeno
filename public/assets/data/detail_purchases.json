@@ -3,216 +3,252 @@
         "id_purchase": 1,
         "id_inggridients": 1,
         "date_expired": "28/02/2022",
-        "qty": 35000
+        "qty": 35000,
+        "price_inggridients": 2800000
     },
     {
         "id_purchase": 1,
         "id_inggridients": 2,
         "date_expired": "30/01/2022",
-        "qty": 24000
+        "qty": 24000,
+        "price_inggridients": 960000
     },
     {
         "id_purchase": 1,
         "id_inggridients": 3,
         "date_expired": "30/07/2023",
-        "qty": 10000
+        "qty": 10000,
+        "price_inggridients": 200000
     },
     {
         "id_purchase": 2,
         "id_inggridients": 1,
         "date_expired": "31/03/2022",
-        "qty": 27000
+        "qty": 27000,
+        "price_inggridients": 2160000
     },
     {
         "id_purchase": 2,
         "id_inggridients": 2,
         "date_expired": "28/02/2022",
-        "qty": 20000
+        "qty": 20000,
+        "price_inggridients": 800000
     },
     {
         "id_purchase": 2,
         "id_inggridients": 3,
         "date_expired": "31/08/2023",
-        "qty": 8000
+        "qty": 8000,
+        "price_inggridients": 160000
     },
     {
         "id_purchase": 3,
         "id_inggridients": 1,
         "date_expired": "30/04/2022",
-        "qty": 26000
+        "qty": 26000,
+        "price_inggridients": 2080000
     },
     {
         "id_purchase": 3,
         "id_inggridients": 2,
         "date_expired": "30/03/2022",
-        "qty": 18000
+        "qty": 18000,
+        "price_inggridients": 720000
     },
     {
         "id_purchase": 3,
         "id_inggridients": 3,
         "date_expired": "30/09/2023",
-        "qty": 7000
+        "qty": 7000,
+        "price_inggridients": 140000
     },
     {
         "id_purchase": 4,
         "id_inggridients": 1,
         "date_expired": "30/05/2022",
-        "qty": 32000
+        "qty": 32000,
+        "price_inggridients": 2560000
     },
     {
         "id_purchase": 4,
         "id_inggridients": 2,
         "date_expired": "30/04/2022",
-        "qty": 23000
+        "qty": 23000,
+        "price_inggridients": 920000
     },
     {
         "id_purchase": 4,
         "id_inggridients": 3,
         "date_expired": "30/10/2023",
-        "qty": 9000
+        "qty": 9000,
+        "price_inggridients": 180000
     },
     {
         "id_purchase": 5,
         "id_inggridients": 1,
         "date_expired": "30/06/2022",
-        "qty": 32000
+        "qty": 32000,
+        "price_inggridients": 2560000
     },
     {
         "id_purchase": 5,
         "id_inggridients": 2,
         "date_expired": "30/05/2022",
-        "qty": 23000
+        "qty": 23000,
+        "price_inggridients": 920000
     },
     {
         "id_purchase": 5,
         "id_inggridients": 3,
         "date_expired": "30/11/2023",
-        "qty": 9000
+        "qty": 9000,
+        "price_inggridients": 180000
     },
     {
         "id_purchase": 6,
         "id_inggridients": 1,
         "date_expired": "31/07/2022",
-        "qty": 30000
+        "qty": 30000,
+        "price_inggridients": 2400000
     },
     {
         "id_purchase": 6,
         "id_inggridients": 2,
         "date_expired": "30/06/2022",
-        "qty": 20000
+        "qty": 20000,
+        "price_inggridients": 800000
     },
     {
         "id_purchase": 6,
         "id_inggridients": 3,
         "date_expired": "31/12/2023",
-        "qty": 8000
+        "qty": 8000,
+        "price_inggridients": 160000
     },
     {
         "id_purchase": 7,
         "id_inggridients": 1,
         "date_expired": "30/08/2022",
-        "qty": 27000
+        "qty": 27000,
+        "price_inggridients": 2160000
     },
     {
         "id_purchase": 7,
         "id_inggridients": 2,
         "date_expired": "30/07/2022",
-        "qty": 19000
+        "qty": 19000,
+        "price_inggridients": 760000
     },
     {
         "id_purchase": 7,
         "id_inggridients": 3,
         "date_expired": "30/01/2024",
-        "qty": 8000
+        "qty": 8000,
+        "price_inggridients": 160000
     },
     {
         "id_purchase": 8,
         "id_inggridients": 1,
         "date_expired": "28/09/2022",
-        "qty": 25000
+        "qty": 25000,
+        "price_inggridients": 2000000
     },
     {
         "id_purchase": 8,
         "id_inggridients": 2,
         "date_expired": "28/08/2022",
-        "qty": 18000
+        "qty": 18000,
+        "price_inggridients": 720000
     },
     {
         "id_purchase": 8,
         "id_inggridients": 3,
         "date_expired": "28/02/2024",
-        "qty": 7000
+        "qty": 7000,
+        "price_inggridients": 140000
     },
     {
         "id_purchase": 9,
         "id_inggridients": 1,
         "date_expired": "31/10/2022",
-        "qty": 34000
+        "qty": 34000,
+        "price_inggridients": 2720000
     },
     {
         "id_purchase": 9,
         "id_inggridients": 2,
         "date_expired": "30/09/2022",
-        "qty": 23000
+        "qty": 23000,
+        "price_inggridients": 920000
     },
     {
         "id_purchase": 9,
         "id_inggridients": 3,
         "date_expired": "31/03/2024",
-        "qty": 9000
+        "qty": 9000,
+        "price_inggridients": 180000
     },
     {
         "id_purchase": 10,
         "id_inggridients": 1,
         "date_expired": "30/11/2022",
-        "qty": 28000
+        "qty": 28000,
+        "price_inggridients": 2240000
     },
     {
         "id_purchase": 10,
         "id_inggridients": 2,
         "date_expired": "30/10/2022",
-        "qty": 20000
+        "qty": 20000,
+        "price_inggridients": 800000
     },
     {
         "id_purchase": 10,
         "id_inggridients": 3,
         "date_expired": "30/04/2024",
-        "qty": 8000
+        "qty": 8000,
+        "price_inggridients": 160000
     },
     {
         "id_purchase": 11,
         "id_inggridients": 1,
         "date_expired": "31/12/2022",
-        "qty": 31000
+        "qty": 31000,
+        "price_inggridients": 2480000
     },
     {
         "id_purchase": 11,
         "id_inggridients": 2,
         "date_expired": "30/11/2022",
-        "qty": 22000
+        "qty": 22000,
+        "price_inggridients": 880000
     },
     {
         "id_purchase": 11,
         "id_inggridients": 3,
         "date_expired": "31/05/2024",
-        "qty": 9000
+        "qty": 9000,
+        "price_inggridients": 180000
     },
     {
         "id_purchase": 12,
         "id_inggridients": 1,
         "date_expired": "30/01/2023",
-        "qty": 30000
+        "qty": 30000,
+        "price_inggridients": 2400000
     },
     {
         "id_purchase": 12,
         "id_inggridients": 2,
         "date_expired": "30/12/2022",
-        "qty": 21000
+        "qty": 21000,
+        "price_inggridients": 840000
     },
     {
         "id_purchase": 12,
         "id_inggridients": 3,
         "date_expired": "30/06/2024",
-        "qty": 8000
+        "qty": 8000,
+        "price_inggridients": 160000
     }
 ]

@@ -19,7 +19,8 @@ final class CreateDetailRequestSalesTable extends Migration
             $table->id();
             $table->unsignedBigInteger('id_sale');
             $table->unsignedBigInteger('id_product');
-            $table->integer('qty');
+            $table->bigInteger('qty');
+            $table->bigInteger('price_product');
 
             $table->foreign('id_sale')->references('id_sale')->on('request_sales')->onDelete('cascade');
             $table->foreign('id_product')->references('id_product')->on('master_products')->onDelete('cascade');

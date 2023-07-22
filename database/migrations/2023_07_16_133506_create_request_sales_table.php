@@ -20,7 +20,6 @@ final class CreateRequestSalesTable extends Migration
             $table->integer('qty_sale');
             $table->bigInteger('total_price');
             $table->date('date_sale');
-            $table->enum('status', ['accepted', 'rejected']);
             $table->timestamps();
         });
     }

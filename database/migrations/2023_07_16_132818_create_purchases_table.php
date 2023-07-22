@@ -18,6 +18,8 @@ final class CreatePurchasesTable extends Migration
         Schema::create('purchases', function (Blueprint $table): void {
             $table->id('id_purchase');
             $table->unsignedBigInteger('id_supplier');
+            $table->bigInteger('qty_purchase_inggridients');
+            $table->bigInteger('total_price');
             $table->date('date_purchase');
             $table->timestamps();
 

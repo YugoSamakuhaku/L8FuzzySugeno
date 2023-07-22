@@ -21,5 +21,6 @@ final class DetailPurchase extends Model
         'id_inggridient',
         'date_expired',
         'qty',
+        'price_inggridient',
     ];
 }

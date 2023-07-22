@@ -20,7 +20,6 @@ final class RequestSale extends Model
         'qty_sale',
         'total_price',
         'date_sale',
-        'status',
     ];
 
     public function master_products()
