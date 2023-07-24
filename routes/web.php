@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+use App\Http\Livewire\Auth\Login;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +19,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', fn () => view('welcome'));
 
-Route::get('/blank', fn () => view('pages.blank'));
+Route::group(['middleware' => 'guest'], function (): void {
+    Route::get('/login', Login::class)->name('auth.login');
+});
+
+Route::group(['middleware' => 'auth'], function (): void {
+    Route::get('/blank', fn () => view('pages.blank'))->name('blank');
+    Route::get('/logout', function (): void {
+        Auth::logout();
+        redirect()->route('auth.login');
+    });
+});
