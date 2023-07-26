@@ -5,10 +5,13 @@ declare(strict_types=1);
 namespace App\Http\Livewire\Auth;
 
 use Illuminate\Support\Facades\Auth;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 use Livewire\Component;
 
 class Login extends Component
 {
+    use LivewireAlert;
+
     public $username;
     public $password;
 
@@ -27,9 +30,16 @@ class Login extends Component
         $credentials = $this->validate();
 
         if(Auth::attempt(['username' => $credentials['username'], 'password'=> $credentials['password']])) {
-            return redirect()->route('blank');
+            return redirect()->route('adminlte.dashboard');
         }
 
-        return redirect()->route('auth.login');
+        $this->alert('error', 'Failed to Login', [
+            'position' => 'top-end',
+            'timer' => 3000,
+            'toast' => true,
+            'timerProgressBar' => true,
+            'text' => 'Your Username or Password is wrong!.',
+            'width' => '400',
+        ]);
     }
 }

@@ -23,7 +23,7 @@ final class CreatePurchasesTable extends Migration
             $table->date('date_purchase');
             $table->timestamps();
 
-            $table->foreign('id_supplier')->references('id_supplier')->on('suppliers')->onDelete('cascade');
+            $table->foreign('id_supplier')->references('id_supplier')->on('suppliers')->onDelete('RESTRICT');
         });
     }
 

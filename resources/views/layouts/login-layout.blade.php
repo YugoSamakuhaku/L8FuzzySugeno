@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{{ asset('assets/login/css/owl.carousel.min.css') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('assets/login/css/bootstrap.min.css') }}">
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="{{ asset('assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') }}">
     <!-- Style -->
     <link rel="stylesheet" href="{{ asset('assets/login/css/style.css') }}">
 
@@ -38,9 +40,15 @@
     <script src="{{ asset('assets/login/js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('assets/login/js/popper.min.js') }}"></script>
     <script src="{{ asset('assets/login/js/bootstrap.min.js') }}"></script>
+    <!-- SweetAlert2 -->
+    <script src="{{ asset('assets/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+    <script src="{{ asset('vendor/livewire-alert/livewire-alert.js') }}"></script>
     <script src="{{ asset('assets/login/js/main.js') }}"></script>
 
     @livewireScripts
+
+    <x-livewire-alert::scripts />
+    <x-livewire-alert::flash />
 </body>
 
 </html>

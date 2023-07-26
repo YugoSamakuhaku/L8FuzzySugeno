@@ -13,6 +13,7 @@ final class Supplier extends Model
 
     public $timestamps = true;
 
+
     protected $table = 'suppliers';
     protected $primaryKey = 'id_supplier';
 

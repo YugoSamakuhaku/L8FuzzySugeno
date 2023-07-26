@@ -23,8 +23,8 @@ final class CreateDetailPurchasesTable extends Migration
             $table->bigInteger('qty');
             $table->bigInteger('price_inggridient');
 
-            $table->foreign('id_purchase')->references('id_purchase')->on('purchases')->onDelete('cascade');
-            $table->foreign('id_inggridient')->references('id_inggridient')->on('master_inggridients')->onDelete('cascade');
+            $table->foreign('id_purchase')->references('id_purchase')->on('purchases')->onDelete('RESTRICT');
+            $table->foreign('id_inggridient')->references('id_inggridient')->on('master_inggridients')->onDelete('RESTRICT');
         });
     }
 

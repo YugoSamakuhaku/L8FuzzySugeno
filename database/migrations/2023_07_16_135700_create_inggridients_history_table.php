@@ -23,7 +23,7 @@ final class CreateInggridientsHistoryTable extends Migration
             $table->bigInteger('stok_out');
             $table->bigInteger('last_stok');
 
-            $table->foreign('id_inggridient')->references('id_inggridient')->on('master_inggridients')->onDelete('cascade');
+            $table->foreign('id_inggridient')->references('id_inggridient')->on('master_inggridients')->onDelete('RESTRICT');
         });
     }
 
